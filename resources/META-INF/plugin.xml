@@ -2,7 +2,7 @@
   <id>com.simonalong.neo.coder</id>
   <name>neo coder</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="simonalongs@126.com">柿子技术</vendor>
 
   <description><![CDATA[
       The plug-in can quickly generate domain and dao layer code.The plugin is developed based on the underlying Orm framework independently developed by the company, not the common Orm framework on the market<br>
@@ -26,7 +26,7 @@
   -->
 
   <extensions defaultExtensionNs="com.intellij">
-    <toolWindow id="NeoCoder" secondary="true" icon="/icons/neotest.png" anchor="right" factoryClass="com.simonalong.neo.coder.plugin.GenerateFactory"/>
+    <toolWindow id="Neo Coder" secondary="true" icon="/icons/neotest.png" anchor="right" factoryClass="com.simonalong.neo.coder.plugin.GenerateFactory"/>
   </extensions>
 
   <actions>
