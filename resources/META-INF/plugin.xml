@@ -1,0 +1,36 @@
+<idea-plugin>
+  <id>com.simonalong.neo.coder</id>
+  <name>neo coder</name>
+  <version>1.0</version>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+  <description><![CDATA[
+      The plug-in can quickly generate domain and dao layer code.The plugin is developed based on the underlying Orm framework independently developed by the company, not the common Orm framework on the market<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <h3> 1.0</h3>
+      - Implement parsing sql and generate do and dao functions<br/>
+      - Save the configuration data of the application<br/>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="NeoCoder" secondary="true" icon="/icons/neotest.png" anchor="right" factoryClass="com.simonalong.neo.coder.plugin.GenerateFactory"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
