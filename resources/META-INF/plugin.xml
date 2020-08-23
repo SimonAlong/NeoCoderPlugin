@@ -1,6 +1,6 @@
 <idea-plugin>
   <id>com.simonalong.neo.coder</id>
-  <name>neo coder</name>
+  <name>Neo Coder</name>
   <version>1.0</version>
   <vendor email="simonalongs@126.com">柿子技术</vendor>
 
@@ -26,7 +26,7 @@
   -->
 
   <extensions defaultExtensionNs="com.intellij">
-    <toolWindow id="Neo Coder" secondary="true" icon="/icons/neotest.png" anchor="right" factoryClass="com.simonalong.neo.coder.plugin.GenerateFactory"/>
+    <toolWindow id="Neo Coder" secondary="true" icon="/icons/neotest.png" anchor="bottom" factoryClass="com.simonalong.neo.coder.plugin.GenerateFactory"/>
   </extensions>
 
   <actions>
