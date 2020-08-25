@@ -5,8 +5,7 @@
   <vendor email="simonalongs@126.com">柿子技术</vendor>
 
   <description><![CDATA[
-      The plug-in can quickly generate domain and dao layer code.The plugin is developed based on the underlying Orm framework independently developed by the company, not the common Orm framework on the market<br>
-      <em>most HTML tags may be used</em>
+      he plug-in can quickly generate domain and dao layer code.The plugin is developed based on the underlying Orm framework independently developed by the company, not the common Orm framework on the market<br/>
     ]]></description>
 
   <change-notes><![CDATA[
@@ -21,9 +20,8 @@
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
-  <!-- uncomment to enable plugin in all products
+
   <depends>com.intellij.modules.lang</depends>
-  -->
 
   <extensions defaultExtensionNs="com.intellij">
     <toolWindow id="Neo Coder" secondary="true" icon="/icons/neotest.png" anchor="bottom" factoryClass="com.simonalong.neo.coder.plugin.GenerateFactory"/>
