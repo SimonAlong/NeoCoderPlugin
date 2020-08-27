@@ -8,7 +8,6 @@ import com.simonalong.neo.coder.plugin.util.ConfigCacheHelper;
 import net.sf.jsqlparser.JSQLParserException;
 import net.sf.jsqlparser.parser.CCJSqlParserUtil;
 import net.sf.jsqlparser.statement.create.table.CreateTable;
-import org.apache.commons.lang3.StringUtils;
 
 import javax.swing.*;
 import java.awt.event.KeyEvent;
@@ -253,7 +252,7 @@ public class AppConfigForm {
      * 去除符号`和'
      */
     private String filterColumnDom(String name) {
-        if (StringUtils.isEmpty(name)) {
+        if (null == name || "".equals(name)) {
             return "";
         }
         name = name.replaceAll("`", "");

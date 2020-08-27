@@ -21,10 +21,10 @@
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
 
-  <depends>com.intellij.modules.lang</depends>
+<!--  <depends>com.intellij.modules.java</depends>-->
 
   <extensions defaultExtensionNs="com.intellij">
-    <toolWindow id="Neo Coder" secondary="true" icon="/icons/neotest.png" anchor="bottom" factoryClass="com.simonalong.neo.coder.plugin.GenerateFactory"/>
+    <toolWindow id="Neo Coder" secondary="true" icon="/icons/neotest.png" anchor="right" factoryClass="com.simonalong.neo.coder.plugin.GenerateFactory"/>
   </extensions>
 
   <actions>
